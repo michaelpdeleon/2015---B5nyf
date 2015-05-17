@@ -1,10 +1,10 @@
-@charset "utf-8";
+@charset "UTF-8";
 /* CSS Document */
 
 body {
 	margin: 0;
 	padding: 0;
-	background: url('images/page-bg.jpg') repeat;
+	background-color: #E6E4D6;
 }
 img {
 	display: block;
@@ -12,14 +12,14 @@ img {
 header {
 	background-color: #FFF;
 }
-.headerwrpr {
+header .headerwrpr {
 	width: 970px;
 	margin: 0 auto;
 }
 nav {
 	background-color: #363394;
 }
-.navwrpr {
+nav .navwrpr {
 	width: 970px;
 	margin: 0 auto;
 }
@@ -29,6 +29,28 @@ nav {
 }
 #container {
 	background-color: #FFF;
+}
+.ghdr-bnr {
+	margin: 0 0 20px 10px;
+}
+aside {
+	float: left;
+}
+#right-content {
+	margin: 5px 25px 0 0;
+	float: right;
+}
+.breadcrumb {
+	margin-bottom: 10px;
+}
+.pagination {
+	margin-top: 70px;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+#product-lst {
+	margin: 10px 0;
 }
 footer {
 	clear: both;
